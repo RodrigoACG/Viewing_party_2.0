@@ -16,7 +16,6 @@ RSpec.describe "Discover page" do
       expect(page).to have_field("Search Movie By Title")
       # - a Button to Search by Movie Title
       expect(page).to have_button("Search Movie")
-save_and_open_page
     end
   end
 end
